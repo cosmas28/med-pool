@@ -26,7 +26,7 @@ It is live on [Heroku](#url)
 
 ## Installation
 
-1. Install [`Node JS`](https://nodejs.org/en/).
+1. Install v12.5.0 [`Node JS`](https://nodejs.org/en/).
 2. To clone, run `git clone https://github.com/cosmas28/med-pool.git`.
 3. `cd` into the root of the **project directory**.
 4. Install [`yarn`](https://docs.npmjs.com/).
