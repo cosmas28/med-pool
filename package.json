@@ -4,7 +4,9 @@
   "description": "centralized chemist",
   "scripts": {
     "start:dev": "webpack-dev-server --open --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.prod.js"
+    "build": "webpack --config webpack.config.prod.js",
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -18,16 +20,26 @@
   "homepage": "https://github.com/cosmas28/med-pool#readme",
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.1",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.8.3",
+    "@storybook/addon-info": "^5.3.13",
+    "@storybook/addon-knobs": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/react": "^5.3.13",
     "@types/react": "^16.9.19",
     "@types/react-dom": "^16.9.5",
+    "@types/storybook__react": "^5.2.1",
+    "@types/styled-components": "^4.4.3",
+    "@types/styled-system": "^5.1.6",
     "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.7",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^3.2.0",
